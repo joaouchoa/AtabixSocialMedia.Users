@@ -5,6 +5,12 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtabixSocialMedia.Users.API", "AtabixSocialMedia.Users.API\AtabixSocialMedia.Users.API.csproj", "{B9F1AFB4-1A53-4963-A60D-B77E92C1475D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtabixSocialMedia.Users.Application", "AtabixSocialMedia.Users.Application\AtabixSocialMedia.Users.Application.csproj", "{28539465-83B1-4A08-9325-06D321A390F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtabixSocialMedia.Users.Infrastrucute", "AtabixSocialMedia.Users.Infrastrucute\AtabixSocialMedia.Users.Infrastrucute.csproj", "{693F3075-82F4-4F84-92A0-638C14B7E587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtabixSocialMedia.Users.Core", "AtabixSocialMedia.Users.Core\AtabixSocialMedia.Users.Core.csproj", "{03509F6F-E8BF-4C55-ABDD-E0C480B52F50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{B9F1AFB4-1A53-4963-A60D-B77E92C1475D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9F1AFB4-1A53-4963-A60D-B77E92C1475D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9F1AFB4-1A53-4963-A60D-B77E92C1475D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28539465-83B1-4A08-9325-06D321A390F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28539465-83B1-4A08-9325-06D321A390F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28539465-83B1-4A08-9325-06D321A390F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28539465-83B1-4A08-9325-06D321A390F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693F3075-82F4-4F84-92A0-638C14B7E587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693F3075-82F4-4F84-92A0-638C14B7E587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693F3075-82F4-4F84-92A0-638C14B7E587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693F3075-82F4-4F84-92A0-638C14B7E587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03509F6F-E8BF-4C55-ABDD-E0C480B52F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03509F6F-E8BF-4C55-ABDD-E0C480B52F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03509F6F-E8BF-4C55-ABDD-E0C480B52F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03509F6F-E8BF-4C55-ABDD-E0C480B52F50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
