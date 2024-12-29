@@ -20,11 +20,11 @@ namespace AtabixSocialMedia.Users.Application.Models
 
     public class BaseResult<T> : BaseResult
     {
-        public T Date { get; set; }
+        public T Data { get; set; }
 
         public BaseResult(T data, bool sucess = true, string message = "") : base (sucess, message)
         {
-            Date = data;
+            Data = data;
         }
     }
 }
