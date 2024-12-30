@@ -1,0 +1,6 @@
+@AtabixSocialMedia.APIGateway_HostAddress = http://localhost:5017
+
+GET {{AtabixSocialMedia.APIGateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
